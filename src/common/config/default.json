@@ -1,0 +1,105 @@
+{
+  "version": "0.1.0",
+  "application": {
+    "name": "Swarmergy",
+    "description": "Le réseau alvéolaire belge pour une énergie partagée",
+    "environment": "development"
+  },
+  "server": {
+    "port": 3000,
+    "host": "localhost",
+    "api": {
+      "prefix": "/api",
+      "version": "v1"
+    }
+  },
+  "database": {
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "name": "swarmergy",
+    "user": "",
+    "password": "",
+    "options": {
+      "useNewUrlParser": true,
+      "useUnifiedTopology": true
+    }
+  },
+  "blockchain": {
+    "network": "development",
+    "provider": "http://localhost:8545",
+    "contracts": {
+      "nrgcoin": {
+        "address": ""
+      },
+      "energyExchange": {
+        "address": ""
+      }
+    }
+  },
+  "iot": {
+    "smartHub": {
+      "updateInterval": 60000,
+      "defaultProtocol": "mqtt"
+    },
+    "protocols": {
+      "mqtt": {
+        "broker": "localhost",
+        "port": 1883,
+        "username": "",
+        "password": "",
+        "topics": {
+          "energy": "swarmergy/alveole/+/energy",
+          "status": "swarmergy/alveole/+/status",
+          "command": "swarmergy/alveole/+/command"
+        }
+      }
+    }
+  },
+  "ai": {
+    "predictionInterval": 3600000,
+    "weatherApiKey": "",
+    "modelPath": "./models/prediction-v1"
+  },
+  "security": {
+    "jwt": {
+      "secret": "change-me-in-production",
+      "expiresIn": "1d"
+    },
+    "encryption": {
+      "algorithm": "aes-256-ctr"
+    }
+  },
+  "storage": {
+    "optimizationInterval": 300000,
+    "thresholds": {
+      "chargingStart": 0.3,
+      "chargingStop": 0.9,
+      "dischargingStart": 0.6,
+      "dischargingStop": 0.2
+    }
+  },
+  "logging": {
+    "level": "debug",
+    "file": "./logs/swarmergy.log",
+    "maxSize": "10m",
+    "maxFiles": 5
+  },
+  "notifications": {
+    "email": {
+      "enabled": false,
+      "host": "",
+      "port": 587,
+      "secure": true,
+      "auth": {
+        "user": "",
+        "pass": ""
+      },
+      "from": "no-reply@swarmergy.be"
+    },
+    "push": {
+      "enabled": false,
+      "apiKey": ""
+    }
+  }
+}
