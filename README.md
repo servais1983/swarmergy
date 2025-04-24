@@ -1,6 +1,7 @@
 # 🐝 Swarmergy
 
-![Bannière Swarmergy](https://raw.githubusercontent.com/servais1983/swarmergy/main/assets/banner.png)
+![neKgZqEkT16CxJvhNoheB](https://github.com/user-attachments/assets/c8d8de99-607e-42d3-ba4e-94f6cc1dc6d4)
+
 
 > **Le réseau alvéolaire belge pour une énergie partagée**
 
