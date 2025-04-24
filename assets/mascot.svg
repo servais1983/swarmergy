@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Abeille "Swarmie" -->
+  <g transform="translate(200, 200)">
+    <!-- Corps -->
+    <ellipse cx="0" cy="0" rx="100" ry="120" fill="#ffd44f" />
+    <!-- Rayures -->
+    <ellipse cx="0" cy="-30" rx="80" ry="85" fill="#333" />
+    <ellipse cx="0" cy="60" rx="80" ry="85" fill="#333" />
+    <!-- Ailes -->
+    <ellipse cx="-80" cy="-90" rx="60" ry="40" fill="#cceeff" opacity="0.8" transform="rotate(-30)" />
+    <ellipse cx="80" cy="-90" rx="60" ry="40" fill="#cceeff" opacity="0.8" transform="rotate(30)" />
+    <!-- Yeux -->
+    <circle cx="-25" cy="-35" r="15" fill="white" />
+    <circle cx="25" cy="-35" r="15" fill="white" />
+    <circle cx="-25" cy="-35" r="8" fill="black" />
+    <circle cx="25" cy="-35" r="8" fill="black" />
+    <!-- Sourire -->
+    <path d="M -30,-10 Q 0,25 30,-10" fill="none" stroke="black" stroke-width="5" stroke-linecap="round" />
+    <!-- Antennes -->
+    <path d="M -25,-55 Q -50,-85 -40,-120" fill="none" stroke="black" stroke-width="4" />
+    <path d="M 25,-55 Q 50,-85 40,-120" fill="none" stroke="black" stroke-width="4" />
+    <circle cx="-40" cy="-120" r="8" fill="#ffd44f" />
+    <circle cx="40" cy="-120" r="8" fill="#ffd44f" />
+    <!-- Casque -->
+    <path d="M -60,-60 Q 0,-90 60,-60" fill="none" stroke="#1e88e5" stroke-width="6" />
+    <circle cx="0" cy="-75" r="10" fill="#1e88e5" />
+  </g>
+  <!-- Texte -->
+  <text x="200" y="350" font-family="Arial, sans-serif" font-size="32" font-weight="bold" text-anchor="middle" fill="#333">Swarmie</text>
+</svg>
