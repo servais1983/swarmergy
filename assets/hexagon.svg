@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+  <!-- Fond -->
+  <rect width="600" height="600" fill="#f9f7e8" />
+  
+  <!-- Structure alvéolaire centrale -->
+  <g transform="translate(300, 300)">
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="#f9f7e8" stroke="#ffd44f" stroke-width="5" />
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="22" text-anchor="middle" fill="#333">Ruche</text>
+  </g>
+  
+  <!-- Alvéoles autour -->
+  <g transform="translate(300, 150)">
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="#f9f7e8" stroke="#ffd44f" stroke-width="3" />
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">Alvéole</text>
+  </g>
+  
+  <g transform="translate(440, 225)">
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="#f9f7e8" stroke="#ffd44f" stroke-width="3" />
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">Alvéole</text>
+  </g>
+  
+  <g transform="translate(440, 375)">
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="#f9f7e8" stroke="#ffd44f" stroke-width="3" />
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">Alvéole</text>
+  </g>
+  
+  <g transform="translate(300, 450)">
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="#f9f7e8" stroke="#ffd44f" stroke-width="3" />
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">Alvéole</text>
+  </g>
+  
+  <g transform="translate(160, 375)">
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="#f9f7e8" stroke="#ffd44f" stroke-width="3" />
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">Alvéole</text>
+  </g>
+  
+  <g transform="translate(160, 225)">
+    <polygon points="0,-100 86.6,-50 86.6,50 0,100 -86.6,50 -86.6,-50" fill="#f9f7e8" stroke="#ffd44f" stroke-width="3" />
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#333">Alvéole</text>
+  </g>
+  
+  <!-- Lignes de connexion -->
+  <g stroke="#ffd44f" stroke-width="3" stroke-dasharray="10,5">
+    <line x1="300" y1="200" x2="300" y2="250" />
+    <line x1="380" y1="225" x2="350" y2="270" />
+    <line x1="380" y1="375" x2="350" y2="330" />
+    <line x1="300" y1="400" x2="300" y2="350" />
+    <line x1="220" y1="375" x2="250" y2="330" />
+    <line x1="220" y1="225" x2="250" y2="270" />
+  </g>
+  
+  <!-- Étiquette -->
+  <text x="300" y="540" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">Structure Alvéolaire Swarmergy</text>
+</svg>
